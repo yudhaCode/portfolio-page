@@ -1,0 +1,109 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1439px) {
+  * {
+    font-size: 1vw;
+  }
+}
+
+/* colors */
+.text-gray-500 {
+  color: #828282;
+}
+
+.text-gray-700 {
+  color: #4f4f4f;
+}
+
+/* font weights */
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.font-weight-700 {
+  font-weight: 700;
+}
+
+/* Border radius */
+.bradius-0-75 {
+  border-radius: 0.75rem;
+}
+
+/* bg */
+.bg-progress {
+  background-color: #c4c4c4;
+}
+
+/*  */
+
+#hobbies-img {
+  height: 8.6875rem;
+}
+
+#projects-img {
+  width: 20.12494rem;
+  height: 17.125rem;
+}
+
+.material-icons {
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1439px) {
+  #hobbies {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #hobbies .card {
+    width: 32% !important;
+  }
+
+  #hobbies-img {
+    height: 14rem;
+  }
+
+  #footer {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 767px) {
+  #hobbies .card {
+    width: 100% !important;
+  }
+
+  #hobbies-img {
+    height: 14rem;
+  }
+
+  #projects-img {
+    width: 100% !important;
+  }
+
+  #skills {
+    flex-direction: column;
+  }
+
+  #projects {
+    flex-direction: column !important;
+  }
+
+  .top-2rem {
+    margin-top: 2rem;
+  }
+
+  #footer {
+    margin-top: 10rem;
+  }
+
+  .material-icons {
+    font-size: 1.6rem;
+  }
+}

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Montserrat Font -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    />
+
+    <!-- Google Material Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles/custom-styles.css" />
+
+    <title>Portfolio Page</title>
+  </head>
+  <body>
+    <div class="container py-xxl-5">
+      <div class="row">
+        <div class="col-xxl-4 col-md-12 py-3">
+          <div class="d-md-flex flex-xxl-column justify-content-md-start">
+            <!-- Profile card -->
+            <div class="card border-0" style="width: 22.93719rem">
+              <div class="card-body px-0">
+                <img
+                  src="assets/profile-img.jpg"
+                  class="rounded float-start mb-3"
+                  style="width: 22.93719rem"
+                  alt="person"
+                />
+
+                <h5 class="card-title text-gray-700 font-weight-600 fs-3">
+                  Faisal Yudha Nugraha
+                </h5>
+                <h6 class="card-subtitle mb-2 text-gray-500">
+                  Front-end developer
+                </h6>
+
+                <div class="d-flex mt-4 text-gray-700">
+                  <span class="material-icons"> email </span>
+                  <p class="ms-2 mb-2">faisalyudha2011@gmail.com</p>
+                </div>
+
+                <div class="d-flex text-gray-700">
+                  <span class="material-icons"> call </span>
+                  <p class="ms-2">(+62)8960549816</p>
+                </div>
+
+                <p class="card-text fs-6 text-gray-500 font-weight-500">
+                  Self-motivated developer, who is willing to learn and create
+                  outstanding UI applications.
+                </p>
+              </div>
+            </div>
+
+            <!-- Experiences -->
+            <div class="py-5 ms-xxl-0 ms-md-5">
+              <h3 class="card-title text-gray-700 font-weight-500 fs-3 mb-5">
+                Experiences
+              </h3>
+
+              <div class="card d-flex flex-row align-items-start border-0 mb-4">
+                <img
+                  src="assets/fendmentor.jpg"
+                  alt="jobs"
+                  class="me-3"
+                  style="width: 4rem"
+                />
+
+                <div class="card-body py-0">
+                  <h6>June 2023 - Current</h6>
+                  <h5 class="card-title">Front-end developer</h5>
+                  <p class="card-text">
+                    Build Front-end challenges from frontEndMentor with HTML,
+                    CSS & JS
+                  </p>
+                </div>
+              </div>
+              <div class="card d-flex flex-row align-items-start border-0 mb-4">
+                <img
+                  src="assets/devchellenges.jpg"
+                  alt="jobs"
+                  class="me-3"
+                  style="width: 4rem"
+                />
+
+                <div class="card-body py-0">
+                  <h6>August 2023 - Current</h6>
+                  <h5 class="card-title">Front-end developer</h5>
+                  <p class="card-text">
+                    Build Front-end challenges from devChallenges with HTML, CSS
+                    & JS
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hobbies -->
+          <div class="py-lg-5">
+            <h3 class="card-title text-gray-700 font-weight-500 fs-3 mb-5">
+              Hobbies
+            </h3>
+
+            <div id="hobbies">
+              <div class="card border-0" style="width: 18rem">
+                <img
+                  id="hobbies-img"
+                  src="assets/biking.webp"
+                  class="card-img-top bradius-0-75 object-fit-cover"
+                  alt="hobbies"
+                />
+                <div class="card-body px-0 border-0">
+                  <h5 class="card-title">Biking</h5>
+                  <p class="card-text">
+                    Love biking, nature exploration, freedom.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card border-0" style="width: 18rem">
+                <img
+                  id="hobbies-img"
+                  src="assets/reading.jpg"
+                  class="card-img-top bradius-0-75 object-fit-cover"
+                  alt="hobbies"
+                />
+                <div class="card-body px-0">
+                  <h5 class="card-title">Reading</h5>
+                  <p class="card-text">
+                    Passionately exploring worlds through reading.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card border-0" style="width: 18rem">
+                <img
+                  id="hobbies-img"
+                  src="assets/coding.jpg"
+                  class="card-img-top bradius-0-75 object-fit-cover"
+                  alt="hobbies"
+                />
+                <div class="card-body px-0">
+                  <h5 class="card-title">Coding</h5>
+                  <p class="card-text">
+                    Creating with code, endless possibilities.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-8 col-md-12 py-3 ps-4">
+          <!-- Skills Bar -->
+          <div
+            id="skills"
+            class="d-flex flex-md-row flex-sm-column justify-content-between mb-5 py-lg-5"
+          >
+            <!-- Front-end -->
+            <div class="flex-grow-1 me-md-5">
+              <h6 class="font-weight-600">FRONT END</h6>
+              <div>
+                <p class="mb-0">React</p>
+                <div class="progress bg-progress">
+                  <div
+                    class="progress-bar w-50"
+                    role="progressbar"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div>
+                <p class="mb-0">JavaScript</p>
+                <div class="progress bg-progress">
+                  <div
+                    class="progress-bar w-50"
+                    role="progressbar"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div>
+                <p class="mb-0">HTML</p>
+                <div class="progress bg-progress">
+                  <div
+                    class="progress-bar w-50"
+                    role="progressbar"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div>
+                <p class="mb-0">CSS/SASS</p>
+                <div class="progress bg-progress">
+                  <div
+                    class="progress-bar w-50"
+                    role="progressbar"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <!-- Design -->
+            <div class="flex-grow-1">
+              <h6 class="top-2rem">DESIGN</h6>
+              <div>
+                <p class="mb-0">Figma</p>
+                <div class="progress bg-progress">
+                  <div
+                    class="progress-bar w-50"
+                    role="progressbar"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div>
+                <p class="mb-0">Inkscape</p>
+                <div class="progress bg-progress">
+                  <div
+                    class="progress-bar w-50"
+                    role="progressbar"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projects -->
+          <div>
+            <h4 class="fs-6 text-gray-500 py-4 mb-4">Projects (3)</h4>
+            <div
+              id="projects"
+              class="card border-0 flex-row align-items-start mb-5"
+            >
+              <img
+                id="projects-img"
+                src="assets/recipe.png"
+                class="card-img-top bradius-0-75 me-4 object-fit-cover"
+                alt="projects"
+              />
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h6 class="text-gray-500 mb-3">#HTML #CSS #responsive</h6>
+                <h5 class="card-title mb-3">Recipe Blog</h5>
+                <p class="card-text text-gray-500 mb-4 pe-4">
+                  In this project, I work with HTML and CSS to create a
+                  responsive page . The design is from devchallenge.io. Donec
+                  aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
+                  feugiat malesuada molestie.
+                </p>
+                <div class="d-flex">
+                  <a
+                    href="https://recipe-page-plum.vercel.app/"
+                    target="_blank"
+                    class="btn btn-primary px-4"
+                    >Demo</a
+                  >
+                  <a
+                    href="https://github.com/yudhaCode/recipe-page"
+                    target="_blank"
+                    class="btn btn-light px-4 ms-2"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              id="projects"
+              class="card border-0 flex-row align-items-start mb-5"
+            >
+              <img
+                id="projects-img"
+                src="assets/gallery.png"
+                class="card-img-top bradius-0-75 me-4 object-fit-cover"
+                alt="projects"
+              />
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h6 class="text-gray-500 mb-3">#HTML #CSS #responsive</h6>
+                <h5 class="card-title mb-3">Gallery Page</h5>
+                <p class="card-text text-gray-500 mb-4 pe-4">
+                  In this project, I work with HTML and CSS to create a
+                  responsive page . The design is from devchallenge.io. Donec
+                  aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
+                  feugiat malesuada molestie.
+                </p>
+                <div class="d-flex">
+                  <a
+                    href="https://my-gallery-page-eight.vercel.app/"
+                    target="_blank"
+                    class="btn btn-primary px-4"
+                    >Demo</a
+                  >
+                  <a
+                    href="https://github.com/yudhaCode/my-gallery-page"
+                    target="_blank"
+                    class="btn btn-light px-4 ms-2"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              id="projects"
+              class="card border-0 flex-row align-items-start mb-5"
+            >
+              <img
+                id="projects-img"
+                src="assets/checkout.png"
+                class="card-img-top bradius-0-75 me-4 object-fit-cover"
+                alt="projects"
+              />
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h6 class="text-gray-500 mb-3">#HTML #CSS #responsive</h6>
+                <h5 class="card-title mb-3">Checkout Page</h5>
+                <p class="card-text text-gray-500 mb-4 pe-4">
+                  In this project, I work with HTML and CSS to create a
+                  responsive page . The design is from devchallenge.io. Donec
+                  aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
+                  feugiat malesuada molestie.
+                </p>
+                <div class="d-flex">
+                  <a
+                    href="https://checkout-page-lake.vercel.app/"
+                    target="_blank"
+                    class="btn btn-primary px-4"
+                    >Demo</a
+                  >
+                  <a
+                    href="https://github.com/yudhaCode/checkout-page"
+                    target="_blank"
+                    class="btn btn-light px-4 ms-2"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blogs -->
+          <div>
+            <h4 class="fs-6 text-gray-500 py-4 mb-4">Blogs (1)</h4>
+            <div
+              class="card border-0 d-flex flex-md-row flex-sm-column align-items-center"
+            >
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h5 class="card-title">How to organize your CSS</h5>
+                <p class="card-text text-gray-500 mb-4 pe-4">
+                  Organizing CSS (Cascading Style Sheets) is crucial for
+                  maintaining a clean and efficient codebase in web development.
+                </p>
+                <p class="card-text text-gray-500 mb-4 pe-4">
+                  Here are some effective strategies to help you organize your
+                  CSS for optimal results.
+                </p>
+
+                <a href="#" class="">Read More</a>
+              </div>
+              <img
+                src="assets/css.jpg"
+                class="card-img-top bradius-0-75 object-fit-cover"
+                alt="projects"
+                style="width: 29.1875rem; height: 22.3125rem"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <div id="footer" class="row">
+        <div class="col-md-12">
+          <p class="text-center text-gray-500 font-weight-500">
+            created by
+            <span class="text-decoration-underline font-weight-700"
+              >Faisal Yudha Nugraha</span
+            >
+            - devChallenges.io
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
